@@ -1,0 +1,550 @@
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+/*头部开始*/
+.header{
+    width: 100%;
+    height: 7rem;
+    background: #ffac13;
+}
+.header-content{
+    width: 17rem;
+    height: 3rem;
+    margin: 0 auto;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content p{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.n{
+    color: white;
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
+}
+.xiangzuo{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.xiangzuo i{
+    font-size: 1.3rem;
+    font-family: iconfont;
+    color: #ff9733;
+    margin-left: 0.22rem;
+    line-height: 2rem;
+}
+.fenxiang{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: white;
+}
+.fenxiang i{
+    font-size: 1.3rem;
+    font-family: iconfont;
+    color: #ff9733;
+    margin-left: 0.22rem;
+    line-height: 2rem;
+}
+/*头部结束*/
+/*灰色部分开始*/
+/*准时开始*/
+.huizheng{
+    width: 100%;
+    height: 30rem;
+    position: relative;
+    background: #e2e5e6;
+}
+.zhunshi{
+    width: 6rem;
+    height: 1rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 0.4rem;
+    /*background: #e53935;*/
+}
+.zhunshi i{
+    font-family: iconfont;
+    color: #ff9733;
+    line-height: 1rem;
+    font-size: 0.5rem;
+}
+.zhunshi span{
+    font-size: 0.5rem;
+    color: #ff9733;
+    line-height: 1rem;
+}
+/*准时结束*/
+div.biao1{
+    width: 15rem;
+    height: 3rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 1.4rem;
+    border-radius: 0.5rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.v{
+    color: #ff9733;
+    font-size: 0.28rem;
+    margin-left: 0.5rem;
+  /*  float: left;*/
+}
+.v1{
+    color: #ff9733;
+    font-size: 0.28rem;
+    margin-right: 0.5rem;
+    float: right;
+}
+.v1 i{
+    color: #ff9733;
+    font-size: 0.28rem;
+    float: right;
+    font-family: iconfont;
+}
+.biao1-zhong{
+    border: 1px dotted #aaaaaa;
+}
+.dingdan{
+    width: 6rem;
+    height: 2rem;
+    position: absolute;
+    top: 7rem;
+    left: 6rem;
+    /*background: #e53935;*/
+}
+.dingdan img{
+    width: 6rem;
+    height: 1rem;
+}
+.jieshao-yinpin-neirong{
+    width: 15rem;
+    height: 3.5rem;
+    border-radius: 0.4rem;
+    position: absolute;
+    top: 11rem;
+    left: 1.5rem;
+    background: #fff;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    align-content: space-around;
+}
+.jieshao-yinpin-neirong-picture{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+}
+.jieshao-yinpin-neirong-picture img{
+    width: 3rem;
+    height: 3rem;
+    /*margin-top: 0.25rem;*/
+    border-radius: 0.6rem;
+}
+.jieshao-yinpin-neirong-lvcha{
+    width: 5rem;
+    height: 3rem;
+    float: left;
+    margin-top: 0.25rem;
+}
+.jieshao-yinpin-neirong-jianhao{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #ffac13;
+}
+.jieshao-yinpin-neirong-jianhao i{
+    font-family: iconfont;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.25rem;
+}
+.o{
+    font-size: 0.4rem;
+    margin-top: 2.3rem;
+}
+.jieshao-yinpin-neirong-jiahao{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #ffac13;
+}
+.jieshao-yinpin-neirong-jiahao i{
+    font-family: iconfont;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.25rem;
+}
+.g{
+    font-size: 0.5rem;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+.h{
+    color: #ff2a70;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+.jieshao-yinpin-neirong-lvcha span{
+    color: #ffac13;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+.jieshao-yinpin-neirong-picture{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+}
+.jieshao-yinpin-neirong-picture img{
+    width: 3rem;
+    height: 3rem;
+    /*margin-top: 0.25rem;*/
+    border-radius: 0.6rem;
+}
+.jieshao-yinpin-neirong-lvcha{
+    width: 5rem;
+    height: 3rem;
+    float: left;
+    margin-top: 0.25rem;
+}
+.jieshao-yinpin-neirong-jianhao{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #ffac13;
+}
+.jieshao-yinpin-neirong-jianhao i{
+    font-family: iconfont;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.25rem;
+}
+.o{
+    font-size: 0.4rem;
+    margin-top: 2.3rem;
+}
+.jieshao-yinpin-neirong-jiahao{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #ffac13;
+}
+.jieshao-yinpin-neirong-jiahao i{
+    font-family: iconfont;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.25rem;
+}
+.g{
+    font-size: 0.5rem;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+.h{
+    color: #ff2a70;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+.jieshao-yinpin-neirong-lvcha span{
+    color: #ffac13;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+
+.jieshao-yinpin-neirong1{
+    width: 15rem;
+    height: 3.5rem;
+    border-radius: 0.4rem;
+    position: absolute;
+    top: 15rem;
+    left: 1.5rem;
+    background: #fff;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    align-content: space-around;
+}
+.jieshao-yinpin-neirong-picture{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+}
+.jieshao-yinpin-neirong-picture img{
+    width: 3rem;
+    height: 3rem;
+    /*margin-top: 0.25rem;*/
+    border-radius: 0.6rem;
+}
+.jieshao-yinpin-neirong-lvcha{
+    width: 5rem;
+    height: 3rem;
+    float: left;
+    margin-top: 0.25rem;
+}
+.jieshao-yinpin-neirong-jianhao{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #ffac13;
+}
+.jieshao-yinpin-neirong-jianhao i{
+    font-family: iconfont;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.25rem;
+}
+.o{
+    font-size: 0.4rem;
+    margin-top: 2.3rem;
+}
+.jieshao-yinpin-neirong-jiahao{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #ffac13;
+}
+.jieshao-yinpin-neirong-jiahao i{
+    font-family: iconfont;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.25rem;
+}
+.g{
+    font-size: 0.5rem;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+.h{
+    color: #ff2a70;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+.jieshao-yinpin-neirong-lvcha span{
+    color: #ffac13;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+.jieshao-yinpin-neirong-picture{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+}
+.jieshao-yinpin-neirong-picture img{
+    width: 3rem;
+    height: 3rem;
+    /*margin-top: 0.25rem;*/
+    border-radius: 0.6rem;
+}
+.jieshao-yinpin-neirong-lvcha{
+    width: 5rem;
+    height: 3rem;
+    float: left;
+    margin-top: 0.25rem;
+}
+.jieshao-yinpin-neirong-jianhao{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #ffac13;
+}
+.jieshao-yinpin-neirong-jianhao i{
+    font-family: iconfont;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.25rem;
+}
+.o{
+    font-size: 0.4rem;
+    margin-top: 2.3rem;
+}
+.jieshao-yinpin-neirong-jiahao{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    background: #ffac13;
+}
+.jieshao-yinpin-neirong-jiahao i{
+    font-family: iconfont;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 0.25rem;
+}
+.g{
+    font-size: 0.5rem;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+.h{
+    color: #ff2a70;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+.jieshao-yinpin-neirong-lvcha span{
+    color: #ffac13;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+
+.heji{
+    width: 15rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 19rem;
+    left: 1.5rem;
+    border-radius: 0.3rem;
+    background: white;
+}
+.f{
+    float: left;
+    line-height: 1.5rem;
+    font-size: 0.28rem;
+    margin-left: 0.5rem;
+}
+.f1{
+    float: right;
+    line-height: 1.5rem;
+    font-size: 0.28rem;
+    color: #ff2a70;
+    margin-right: 0.5rem;
+}
+
+.beizhu{
+    width: 15rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 22rem;
+    left: 1.5rem;
+    border-radius: 0.3rem;
+    background: white;
+}
+.f{
+    float: left;
+    line-height: 1.5rem;
+    font-size: 0.32rem;
+}
+.beizhu i{
+    float: right;
+    line-height: 1.5rem;
+    font-size: 0.28rem;
+    font-family: iconfont;
+    margin-right: 0.5rem;
+}
+.hongbao{
+    width: 15rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 20rem;
+    left: 1.5rem;
+    border-radius: 0.3rem;
+}
+.f2{
+    float: left;
+    line-height: 1.5rem;
+    font-size: 0.28rem;
+    color: #ff2a70;
+}
+.f3{
+    float: right;
+    line-height: 1.5rem;
+    font-size: 0.28rem;
+    color: #ff2a70;
+}
+.canju{
+    width: 15rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 24rem;
+    left: 1.5rem;
+    background: white;
+    border-radius: 0.3rem;
+}
+.f4{
+    float: right;
+    line-height: 1.5rem;
+    font-size: 0.24rem;
+    color: #33ff33;
+    margin-right: 0.5rem;
+}
+.zhifu{
+    width: 6rem;
+    height: 2rem;
+    position: absolute;
+    top: 27rem;
+    left: 6rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ff2a70;
+}
+.dian1{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: #e2e5e6;
+}
+.dian2{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: white;
+}
+.zhifu p{
+    color: white;
+    font-size: 0.6rem;
+    line-height: 2rem;
+}
+/*灰色部分结束*/
